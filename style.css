@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1220px;
+    margin: 0 auto;
+}
+body{
+    background-color: black;
+}
+header{
+    padding: 30px 0;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+}
+.hero{
+    padding: 30px 0;
+    height: 594px;
+    background-image: url(./img/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+font-weight: 700;
+font-size: 64px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+background-color: white;
+border-radius: 50px;
+width: 602px;
+box-shadow: 16px 18px 28px 0px #FFFFFF40;
+margin: 20px auto;
+}
+.ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.info-ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.yashil {
+    width: 237px;
+    height: 209px;
+    background-color: #32FB00;
+    box-shadow: 0px 22px 27.8px 0px #FFF9F940;
+    position: relative;
+    
+}
+.qizil{
+    width: 237px;
+    height: 209px;
+    background-color: #F70101;
+    top: -100px;
+    right: -100px;
+    position: absolute;
+}
+
+.qizil h2{
+    text-align: center;
+    color: white;
+    margin-top: -100px;
+}
+.h{
+    color: red;
+    text-align: center;
+    padding-top: 120px;
+}
+
+
+.yashil2 {
+    width: 237px;
+    height: 209px;
+    background-color: #32FB00;
+    box-shadow: 0px 22px 27.8px 0px #FFF9F940;
+    position: relative;
+}
+.qizil2{
+
+    width: 411px;
+    height: 209px;
+    border-radius: 150px;
+    background-color: #F70101;
+    position: absolute ;
+    top: -100px;
+    right: -100px;
+}
+
+.qizil2 h2{
+    text-align: center;
+    color: white;
+    margin-top: -100px;
+}
+
+.yashil3 {
+    width: 237px;
+    height: 209px;
+    background-color: #32FB00;
+    box-shadow: 0px 22px 27.8px 0px #FFF9F940;
+    position: relative;
+}
+.qizil3{
+
+    width: 237px;
+    height: 209px;
+    background-color: #F70101;
+    position: absolute ;
+    top: -100px;
+    left: -100px;
+}
+
+.qizil3 h2{
+    text-align: center;
+    color: white;
+    margin-top: -100px;
+}
+.n{
+    text-align: center;
+    padding-top: 120px;
+}
+
+.rasm{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background: #7B2525;
+}
+
+.container .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #7B2525;
+}
+
+.card {
+    color: #FFFFFF;
+    background-color: #7b2222;
+    padding: 30px;
+    width: 300px;
+    height: 200px;
+    display: flex;  
+    text-align: center;
+}
+.card2 {
+    color: #FFFFFF;
+    background-color: #7b2222;
+    padding: 30px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.card2 {
+    color: #FFFFFF;
+    background-color: #7b2222;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 200px;
+}
+
+.footers-ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
